@@ -21,7 +21,7 @@ namespace ThreeLayerBizApp.Controllers
 
         public IActionResult Create()
         {
-            return View();//It is able to create the View for creating the user.
+            return View();
         }
 
         [HttpPost]
